@@ -2,10 +2,12 @@
 <html lang="en">
 <?php include 'inc/head.php'; ?>
 <body>
-<div id="wrapper">
-<?php include 'inc/header.php'; ?>
-
-<?php include 'inc/footer.php'; ?>
-</div>
+	<?php include 'inc/header.php'; ?>
+	<div id="wrapper">
+		<header>
+			<h1>Dashboard</h1>
+		</header>
+	</div>
+	<?php include 'inc/footer.php'; ?>
 </body>
 </html>

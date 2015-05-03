@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic');
+/*@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic');*/
 
 /**** RESET ****/
 *{
@@ -7,14 +7,25 @@
 	outline: 0;
 	border: 0;
 	font-size: 100%;
-	/*-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;*/
 }
 
 body{
 	font-family: 'Lato', 'Helvetica', Sans-Serif;
 	font-size: 1em;
+	background-color: #EEEEEE;
+}
+
+div#wrapper{
+	background-color: #FFFFFF;
+	margin: -15px auto 0 auto;
+	width: 70%;
+	padding: 15px 10px;
+}
+
+header#main-header{
+	background-color: #212121;
+	padding: 15px 0;
+	color: #EEEEEE;
 }
 
 header#main-header .head-icons{
@@ -24,10 +35,47 @@ header#main-header .head-icons{
 
 header#main-header .head-icons .icon{
 	display: table-cell;
+	padding: 35px 20px 10px 20px;
+	cursor: pointer;
+	color: #EEEEEE;
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: top;
+	opacity: 0.8;
+	-webkit-transition: opacity 0.2s;
 }
 
-header#main-header{
-	background-color: #212121;
-	height: 100px;
-	color: #FFFFFF;
+header#main-header .head-icons .icon:hover{
+	opacity: 1;
 }
+
+header#main-header .head-icons .arrow:before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid #FFFFFF;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	opacity: 1;
+}
+
+.head-icons .icon.dashboard{background-image: url('../img/dashboard.svg')}
+.head-icons .icon.inbox{background-image: url('../img/inbox.svg')}
+.head-icons .icon.profile{background-image: url('../img/user.svg')}
+.head-icons .icon.grades{background-image: url('../img/table.svg')}
+.head-icons .icon.settings{background-image: url('../img/equalizer.svg')}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: none;
+	color: #212121
+}
+
+h1{font-size: 2em}
+h2{font-size: 1.7em}

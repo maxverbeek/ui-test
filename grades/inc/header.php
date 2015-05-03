@@ -1,6 +1,6 @@
 <header id="main-header">
 	<div class="head-icons">
-		<div class="icon dashboard">Dashboard</div>
+		<div class="icon dashboard arrow">Dashboard</div>
 		<div class="icon grades">Grades</div>
 		<div class="icon inbox">Inbox</div>
 		<div class="icon profile">Profile</div>
