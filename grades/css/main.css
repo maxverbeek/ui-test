@@ -13,6 +13,7 @@ body{
 	font-family: 'Lato', 'Helvetica', Sans-Serif;
 	font-size: 1em;
 	background-color: #EEEEEE;
+	position: relative;
 }
 
 div#wrapper{
@@ -41,12 +42,6 @@ header#main-header .head-icons .icon{
 	background-repeat: no-repeat;
 	position: relative;
 	background-position: top;
-	opacity: 0.8;
-	-webkit-transition: opacity 0.2s;
-}
-
-header#main-header .head-icons .icon:hover{
-	opacity: 1;
 }
 
 header#main-header .head-icons .arrow:before{
