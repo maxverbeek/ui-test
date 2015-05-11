@@ -1,0 +1,83 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+	font: 18px/1.6 Lato, Helvetica, sans-serif;
+	background-color: #eee;
+	min-height: 100%;
+	position: relative;
+}
+
+.center
+{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.main-header
+{
+	width: 100%;
+	background: #333;
+	color: white;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.icons
+{
+	margin: 0 auto;
+	display: table;
+	height: 100%;
+}
+
+.icon
+{
+	float: left;
+	font-size: .9em;
+	cursor: pointer;
+	padding: 45px 20px 10px;
+	background-position: center 10px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.icon.arrow:after
+{
+	z-index: 100;
+	content: " ";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0px;
+	width: 0;
+	height: 0;
+	margin: 0 auto;
+	border-bottom: 7px solid white;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+}
+
+.icon:hover
+{
+	background-color: #444;
+}
+
+.icon.arrow:hover:after
+{
+	border-top-color: #444;
+}
+
+.icon.dashboard{background-image: url('../img/dashboard.svg')}
+.icon.inbox{background-image: url('../img/inbox.svg')}
+.icon.profile{background-image: url('../img/user.svg')}
+.icon.grades{background-image: url('../img/table.svg')}
+.icon.settings{background-image: url('../img/equalizer.svg')}
+
+.content
+{
+	padding: 15px;
+	margin-top: -20px;
+	background: white;
+	position: relative;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, .33);
+}
