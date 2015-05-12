@@ -20,7 +20,9 @@
 	</header>
 
 	<div class="content center">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sed, sunt nam sapiente voluptatum quidem, magnam impedit, unde aut numquam, eius ab. Eius, optio autem est velit debitis nesciunt illo.
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sed, sunt nam sapiente voluptatum quidem, magnam impedit, unde aut numquam, eius ab. Eius, optio autem est velit debitis nesciunt illo.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sed, sunt nam sapiente voluptatum quidem, magnam impedit, unde aut numquam, eius ab. Eius, optio autem est velit debitis nesciunt illo.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sed, sunt nam sapiente voluptatum quidem, magnam impedit, unde aut numquam, eius ab. Eius, optio autem est velit debitis nesciunt illo.</p>
 	</div>
 </body>
 </html>

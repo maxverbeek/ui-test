@@ -57,7 +57,8 @@ html, body
 	border-right: 7px solid transparent;
 }
 
-.icon:hover
+.icon:hover,
+.icon.arrow
 {
 	background-color: #444;
 }
@@ -80,4 +81,22 @@ html, body
 	background: white;
 	position: relative;
 	box-shadow: 1px 1px 4px rgba(0, 0, 0, .33);
+}
+
+@media screen and (max-width: 475px)
+{
+	.icons
+	{
+		width: 100%;
+	}
+
+	.icon
+	{
+		font-size: 0;
+		padding: 0;
+		box-sizing: border-box;
+		background-size: 60%;
+		width: 20vw;
+		height: 20vw;
+	}
 }
