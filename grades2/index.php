@@ -55,7 +55,7 @@
 				var color = colors[Math.floor(Math.random() * colors.length)];
 				var top = (Math.random() - 0.5) * 50 + y;
 				var left = (Math.random() - 0.5) * 50 + x;
-				var img = $('<img src="img/kutsterren/'+ color +'.svg" style="position: fixed; top: '+ top +'px; left: '+ left +'px;" width="50px" height="50px" title="jajajaja">').get(0);
+				var img = $('<img class="kutster" src="img/kutsterren/'+ color +'.svg" style="position: fixed; top: '+ top +'px; left: '+ left +'px;" width="50px" height="50px" title="jajajaja">').get(0);
 
 			stars.push(img);
 			document.body.appendChild(img);
