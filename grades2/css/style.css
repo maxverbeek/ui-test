@@ -3,9 +3,14 @@ html, body
 	margin: 0;
 	padding: 0;
 	font: 18px/1.6 Lato, Helvetica, sans-serif;
-	background-color: #eee;
 	min-height: 100%;
 	position: relative;
+	color: purple !important;
+}
+
+body
+{
+	background-image: url(../img/mlg-bg.jpg);
 }
 
 .center
@@ -17,7 +22,7 @@ html, body
 .main-header
 {
 	width: 100%;
-	background: #333;
+	background: rgba(30, 30, 30, .8);
 	color: white;
 	overflow: hidden;
 	padding-bottom: 20px;
@@ -60,7 +65,7 @@ html, body
 .icon:hover,
 .icon.arrow
 {
-	background-color: #444;
+	background-color: rgba(128, 0, 128, .4);
 }
 
 .icon.arrow:hover:after
@@ -99,4 +104,16 @@ html, body
 		width: 20vw;
 		height: 20vw;
 	}
+}
+
+@keyframes mlg
+{
+	0%	{opacity: 1;}
+	100%{opacity: 0;}
+}
+
+.mlg
+{
+	opacity: 1;
+	animation: mlg 1s linear 4s;
 }
